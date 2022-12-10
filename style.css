@@ -102,8 +102,8 @@ body {
 }
 
 .slider{
-  width: 663px;
-  height: 663px;
+  width: 45vw;
+  height: 43vw;
   overflow: hidden;
 }
 
@@ -112,8 +112,8 @@ body {
 }
 
 .slider ul li{
-  width: 663px;
-  height: 663px;
+  width: 45vw;
+  height: 43vw;
 }
 
 #tocTitle {
