@@ -1,0 +1,154 @@
+
+@font-face {
+    font-family: Minecraft;
+    src: url(minecraft_font.ttf),
+    url('Minecraft.woff') format('woff');
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+  font-family: Minecraft;
+}
+
+body {
+  background-color: black;
+}
+
+#video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+
+.content {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  /* padding-left: 350px; */
+}
+
+
+#button {
+  width: 80px;
+  height: 33px;
+  font-size: 16px;
+  padding: 5px;
+  border: none;
+  background: #000;
+  color: #fff;
+  opacity: 0.7;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#button:hover {
+  background: #ddd;
+  color: black;
+}
+
+#essay {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 40px;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 43%;
+  height: 50%;
+  padding: 20px;
+  overflow: scroll;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+
+#essay p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+#toc {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 20%;
+  height: 40%;
+  padding: 20px;
+  right: 0px;
+  bottom: 0px;
+  margin-bottom: 200px;
+  line-height: 2;
+  text-align: center;
+}
+
+
+#imageCarousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3px;
+}
+
+.slider{
+  width: 663px;
+  height: 663px;
+  overflow: hidden;
+}
+
+.slider ul{
+  list-style: none;
+}
+
+.slider ul li{
+  width: 663px;
+  height: 663px;
+}
+
+#tocTitle {
+  text-align: center;
+  font-size: 1.4vw;
+  padding-bottom: 20px;
+}
+
+
+b {
+  font-size: 24px;
+}
+
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.big {
+  font-size: 19px;
+}
+
+
+.green {
+  background-color: green;
+  color: white;
+}
+
+#link {
+  background-color: white;
+}
+
+#toc a {
+  color: white;
+  font-size: 1.1vw;
+  line-height: 1.4;
+}
