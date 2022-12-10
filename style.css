@@ -65,7 +65,7 @@ body {
   margin-bottom: 40px;
   background: rgba(0, 0, 0, 0.5);
   color: #f1f1f1;
-  width: 43%;
+  width: 42%;
   height: 50%;
   padding: 20px;
   overflow: scroll;
@@ -105,15 +105,18 @@ body {
   width: 43vw;
   height: 43vw;
   overflow: hidden;
+  background-repeat: no-repeat;
 }
 
 .slider ul{
   list-style: none;
 }
 
-.slider ul li{
+.slider li{
   width: 43vw;
   height: 43vw;
+  min-width: 35vw;
+  background-repeat: no-repeat;
 }
 
 #tocTitle {
