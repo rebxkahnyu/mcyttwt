@@ -99,6 +99,7 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 3px;
+  background-repeat: no-repeat;
 }
 
 .slider{
@@ -110,6 +111,7 @@ body {
 
 .slider ul{
   list-style: none;
+  background-repeat: no-repeat;
 }
 
 .slider li{
